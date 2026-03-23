@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.example.yarnfullstackdemo.Spaceship;
 
 @RestController
 @RequestMapping("api/yarns")

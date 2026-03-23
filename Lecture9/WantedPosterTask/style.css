@@ -1,54 +1,55 @@
 /* Page background */
 body {
-    background-color: #d8c7a0;
-    background-size: 4px 4px;
-    font-family: "Georgia", "Times New Roman", serif;
+  background-color: #d8c7a0;
+  background-size: 4px 4px;
+  font-family: "Georgia", "Times New Roman", serif;
 }
 
 /* Headline styling */
 h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 /* Apply poster styling to both .poster and .card */
 .poster,
 .card {
-    background-color: #f4e4bc;
-    border: 3px solid #5a3e1b;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4) inset,
-    0 10px 25px rgba(0,0,0,0.3);
-    padding: 1rem;
+  background-color: #f4e4bc;
+  border: 3px solid #5a3e1b;
+  box-shadow:
+    0 0 25px rgba(0, 0, 0, 0.4) inset,
+    0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
 }
 
 /* Make Bootstrap cards blend better */
 .card {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 /* Images look printed */
 .poster img,
 .card-img-top {
-    border: 2px solid #5a3e1b;
-    margin-bottom: 1rem;
-    max-width: 100%;
+  border: 2px solid #5a3e1b;
+  margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 /* Titles look bold and dramatic */
 .card-title,
 .poster h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 /* Make cards position relative so overlay works */
 .poster,
 .card {
-    position: relative;
+  position: relative;
 }
